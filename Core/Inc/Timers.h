@@ -5,10 +5,10 @@
 
 typedef struct {
 
-	bool TON_Q;
-	bool TON_M;
-	uint32_t TON_ET;
-	uint32_t TON_StartTime;
+	bool TON_Q; // TRUE - Запуск таймера, FALSE - Остановка и сброс таймера
+	bool TON_M; // Память включения таймера
+	uint32_t TON_ET; // время которое таймер уже проработал
+	uint32_t TON_StartTime; // время начала отсчета
 
 	bool TOF_Q;
 	bool TOF_M;
